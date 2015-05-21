@@ -1,0 +1,6 @@
+<root xmlns:ns="http://www.example.com">
+  <elem attr="value_prefix" />
+  <elem ATTR="VALUE_PREFIX" />
+  <elem ns:attr="value_prefix" />
+  <elem ns:ATTR="VALUE_PREFIX" />
+</root>

@@ -1,0 +1,13 @@
+<root xmlns:ns="http://www.example.com">
+  <elem attr="value" />
+  <elem attr="value-something" />
+
+  <elem ATTR="VALUE" />
+  <elem ATTR="VALUE-SOMETHING" />
+
+  <elem ns:attr="value" />
+  <elem ns:attr="value-something" />
+
+  <elem ns:ATTR="VALUE" />
+  <elem ns:ATTR="VALUE-SOMETHING" />
+</root>

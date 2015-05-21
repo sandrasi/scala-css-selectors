@@ -1,0 +1,6 @@
+<root xmlns:ns="http://www.example.com">
+  <elem attr="includes the value word" />
+  <elem ATTR="INCLUDES THE VALUE WORD" />
+  <elem ns:attr="includes the value word" />
+  <elem ns:ATTR="INCLUDES THE VALUE WORD" />
+</root>

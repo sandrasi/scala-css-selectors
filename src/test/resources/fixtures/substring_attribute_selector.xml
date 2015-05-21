@@ -1,0 +1,6 @@
+<root xmlns:ns="http://www.example.com">
+  <elem attr="contains_value_substring" />
+  <elem ATTR="CONTAINS_VALUE_SUBSTRING" />
+  <elem ns:attr="contains_value_substring" />
+  <elem ns:ATTR="CONTAINS_VALUE_SUBSTRING" />
+</root>

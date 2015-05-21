@@ -1,0 +1,25 @@
+<root xmlns:ns="http://www.example.com">
+  <elem1 lang="en" />
+  <elem2 lang="en-us" />
+  <elem1 lang="en">
+    <elem2 />
+  </elem1>
+
+  <elem1 LANG="EN" />
+  <elem2 LANG="EN-US" />
+  <elem1 LANG="EN">
+    <elem2 />
+  </elem1>
+
+  <elem1 ns:lang="en" />
+  <elem2 ns:lang="en-us" />
+  <elem1 ns:lang="en">
+    <elem2 />
+  </elem1>
+
+  <elem1 ns:LANG="EN" />
+  <elem2 ns:LANG="EN-US" />
+  <elem1 ns:LANG="EN">
+    <elem2 />
+  </elem1>
+</root>

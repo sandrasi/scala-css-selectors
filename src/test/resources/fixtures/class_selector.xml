@@ -1,0 +1,6 @@
+<root xmlns:ns="http://www/example.org">
+  <elem class="class1 class2" />
+  <elem ns:class="class1 class2" />
+  <elem CLASS="CLASS3 CLASS4" />
+  <elem ns:CLASS="CLASS3 CLASS4" />
+</root>

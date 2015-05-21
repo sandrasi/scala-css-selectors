@@ -1,0 +1,6 @@
+<root xmlns:ns="http://www.example.com">
+  <elem attr="suffix_value" />
+  <elem ATTR="SUFFIX_VALUE" />
+  <elem ns:attr="suffix_value" />
+  <elem ns:ATTR="SUFFIX_VALUE" />
+</root>

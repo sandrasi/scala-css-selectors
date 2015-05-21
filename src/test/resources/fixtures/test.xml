@@ -1,0 +1,32 @@
+<ns:root xmlns:ns="http://www.example.com">
+    <ns:elem ns:attr="value" />
+    <ns:ELEM ns:ATTR="VALUE" />
+    <ns:elem ns:attr="other value" />
+    <ns:ELEM ns:ATTR="OTHER VALUE" />
+    <ns:elem ns:attr="en" />
+    <ns:ELEM ns:ATTR="EN" />
+    <ns:elem ns:attr="en-us" />
+    <ns:ELEM ns:ATTR="EN-US" />
+    <ns:elem ns:id="id1" ns:uid="uid1" ns:class="class1 other" ns:classifier="classifier1 other" />
+    <ns:ELEM ns:ID="ID2" ns:UID="UID2" ns:CLASS="CLASS2 OTHER" ns:CLASSIFIER="CLASSIFIER2 OTHER" />
+
+    <elem attr="value" />
+    <ELEM ATTR="VALUE" />
+    <elem attr="other value" />
+    <ELEM ATTR="OTHER VALUE" />
+    <elem attr="en" />
+    <ELEM ATTR="EN" />
+    <elem attr="en-us" />
+    <ELEM ATTR="EN-US" />
+    <elem id="id3" uid="uid3" class="class3 other" classifier="classifier3 other" />
+    <ELEM ID="ID4" UID="UID4" CLASS="CLASS4 OTHER" CLASSIFIER="CLASSIFIER4 OTHER" />
+
+    <elem>
+        <elem attr="only child" />
+    </elem>
+
+    <elem>
+        <elem attr="only child of type" />
+        <ELEM ATTR="ONLY CHILD OF TYPE" />
+    </elem>
+</ns:root>

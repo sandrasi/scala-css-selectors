@@ -1,0 +1,14 @@
+<!DOCTYPE root [
+  <!ENTITY empty "">
+]>
+
+<root>
+  <elem1 />
+  <elem2><!-- comment --></elem2>
+  <elem3><![CDATA[]]></elem3>
+  <elem4>&empty;</elem4>
+  <elem5><?processing-instruction?></elem5>
+  <elem6>text content</elem6>
+  <elem7><![CDATA[cdata content]]></elem7>
+  <elem8>&amp;</elem8>
+</root>

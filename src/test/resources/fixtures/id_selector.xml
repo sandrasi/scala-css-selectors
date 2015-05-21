@@ -1,0 +1,6 @@
+<root xmlns:ns="http://www.example.org">
+  <elem id="id1" />
+  <elem ns:id="id1" />
+  <elem ID="ID2" />
+  <elem ns:ID="ID2" />
+</root>
